@@ -56,3 +56,12 @@ FROM HOUR_TABLE AS ht
 LEFT JOIN ANIMAL_OUTS AS ao ON ht.HOUR = HOUR(ao.DATETIME)
 GROUP BY ht.HOUR
 
+---
+-- 다른사람 풀이 변수할당하여, 변수와 수가 동일한 경우를 카운트.(변수선언은 생각도못했네..)
+-- SET @HOUR = -1;
+-- SELECT (@HOUR := @HOUR +1) AS HOUR,
+--     (SELECT COUNT(HOUR(DATETIME)) 
+--     FROM ANIMAL_OUTS 
+--     WHERE HOUR(DATETIME)=@HOUR) AS COUNT 
+--     FROM ANIMAL_OUTS
+-- WHERE @HOUR < 23;
