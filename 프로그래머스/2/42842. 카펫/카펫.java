@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
-
+// 풀이수준 : B
 class Solution {
     public int[] solution(int brown, int yellow) {
         int surface = brown + yellow;

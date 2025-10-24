@@ -1,3 +1,5 @@
+// 풀이수준 : A
+// 구현수준 : C
 import java.util.ArrayList;
 import java.util.List;
 

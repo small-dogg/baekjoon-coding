@@ -1,3 +1,4 @@
+// 풀이수준 : C
 class Solution {
     public int[] solution(int n) {
         //n*n 2차원 배열 생성

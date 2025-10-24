@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
+// 풀이수준 : C
 class Solution {
     private static boolean[] visited;
 

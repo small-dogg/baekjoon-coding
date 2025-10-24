@@ -1,3 +1,4 @@
+// 풀이수준 : A-
 class Solution {
     public int[] solution(String s) {
         String val = s;

@@ -1,3 +1,4 @@
+// 풀이수준 : C
 class Solution {
     private static final int[] dx = {0, -1, 1, 0};
     private static final int[] dy = {1, 0, 0, -1};

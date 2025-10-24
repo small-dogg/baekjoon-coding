@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
-
+// 풀이수준 : D
 class Solution {
     public int[][] solution(int n) {
         //한번에 하나의 원판만 옮길 수 있다.

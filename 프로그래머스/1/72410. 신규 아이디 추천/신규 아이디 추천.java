@@ -1,3 +1,5 @@
+//풀이수준 : A-
+//구현수준 : B
 class Solution {
     public String solution(String new_id) {
         //level1

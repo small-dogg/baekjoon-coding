@@ -1,3 +1,4 @@
+//풀이수준 : B+
 class Solution {
     
         private final String[] COUNT = new String[]{"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"};
