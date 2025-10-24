@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
+//풀이수준 : A
+//구현수준 : B-
 class Solution {
     public int solution(int k, int[][] dungeons) {
 
