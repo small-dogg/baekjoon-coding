@@ -1,3 +1,4 @@
+//풀이수준 : C, 슬라이딩 윈도우
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         //두 배열의 중간 인덱스 찾기.
