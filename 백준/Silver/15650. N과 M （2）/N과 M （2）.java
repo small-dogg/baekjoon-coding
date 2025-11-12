@@ -22,7 +22,7 @@ public class Main {
             return;
         }
         // 가지치기(Optional): i의 상한을 줄여서 불필요한 탐색 제거
-        for (int i = start; i <= n; i++) {
+        for (int i = start; i <= n - (m - now.size()) + 1; i++) {
             now.add(i);
             comb(n, m, i + 1, now); // 다음은 i보다 큰 수만
             now.remove(now.size() - 1);
